@@ -1,0 +1,47 @@
+.song-name-bar{
+	width: auto;
+	height: auto;
+	background-color: #f1f3f4;
+	display: flex;
+	justify-content: space-between;
+	/*position: fixed;*/
+	bottom: 0%;
+}
+.image-section img{
+	/*width: 99.7%;*/
+	/*margin-left: 0%; */
+	border:2px solid black;
+	height: 400px;
+	/*text-align: center;*/
+}
+.song-name-bar p{
+	font-family: cursive;
+	font-size: 15px;
+	font-weight: bold;
+}
+.song-name-bar audio{
+	width: 350px;
+	height: 50px;
+}
+.top-margin{
+	margin-top: 33px;
+	text-align: center;
+}
+.background{
+	background-color: #f1f3f4;
+	/*margin-top: -5px;*/
+	/*margin-bottom: -5px;*/
+}
+.background li{
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+	border-top: 1px solid black;
+}
+.back-style{
+	background-color: #f1f3f4;
+	border: 2px solid #f1f3f4;
+}
+audio:focus {
+    outline: none;
+}
